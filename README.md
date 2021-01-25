@@ -7,7 +7,7 @@ This app will allow users to create custom order statuses and send out email not
 
 - I will be using MAC OS for this.  
 - Install Composer, Valet (Optional) and npm
-- Run <b>composer create-project laravel/laravel proj_name</b>
+- Run `composer create-project laravel/laravel proj_name`
 - Run `composer require laravel/ui`
 - Run `php artisan ui vue`
 - Run `npm install`
