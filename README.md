@@ -5,26 +5,26 @@ This app will allow users to create custom order statuses and send out email not
 
 ## Project Setup 
 
-    - I will be using MAC OS for this.  
-    - Install Composer, Valet (Optional) and npm
-    - Run `composer create-project laravel/laravel proj_name` 
-    - Run `composer require laravel/ui`
-    - Run `php artisan ui vue`
-    - Run `npm install`
-    - Run `composer require osiset/laravel-shopify`  # This connects your app to your shopify store
-    - Run `php artisan vendor:publish --tag=shopify-config` # Creates shopify config file 
-    - Create a new public app on the shopify partner store 
-    - Also make sure that you have created a store with the app installed
-    - Add SHOPIFY_API_VERSION=2021-01       
-          SHOPIFY_API_KEY=
-          SHOPIFY_API_SECRET=
-          to your .env file 
-    - Visit https://github.com/osiset/laravel-shopify/wiki/Installation to find out more information
-      on setting up the plugin to work with your shopfiy store 
-    - Run `valet park` if you are on a MAC 
-    - Run `valet link <link name>` which will link your project to run in the background 
-    - Run `valet <link name> secure` to have your app run with https connection
-    - Finally run `php artisan vendor:publish --tag=shopify-migrations && php artisan migrate`
-    - Note - In your app settings on shopify use https://link_name.test and https:link_name.test/authenticate for both the APP URL & APP REDIRECT 
-    - You should now see your app rendered in your shopify app store 
+- I will be using MAC OS for this.  
+- Install Composer, Valet (Optional) and npm
+- Run <b>composer create-project laravel/laravel proj_name</b>
+- Run `composer require laravel/ui`
+- Run `php artisan ui vue`
+- Run `npm install`
+- Run `composer require osiset/laravel-shopify`  # This connects your app to your shopify store
+- Run `php artisan vendor:publish --tag=shopify-config` # Creates shopify config file 
+- Create a new public app on the shopify partner store 
+- Also make sure that you have created a store with the app installed
+- Add SHOPIFY_API_VERSION=2021-01       
+      SHOPIFY_API_KEY=
+      SHOPIFY_API_SECRET=
+      to your .env file 
+- Visit https://github.com/osiset/laravel-shopify/wiki/Installation to find out more information
+  on setting up the plugin to work with your shopfiy store 
+- Run `valet park` if you are on a MAC 
+- Run `valet link <link name>` which will link your project to run in the background 
+- Run `valet <link name> secure` to have your app run with https connection
+- Finally run `php artisan vendor:publish --tag=shopify-migrations && php artisan migrate`
+- Note - In your app settings on shopify use https://link_name.test and https:link_name.test/authenticate for both the APP URL & APP REDIRECT 
+- You should now see your app rendered in your shopify app store 
 
